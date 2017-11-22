@@ -1271,7 +1271,7 @@ function single_post_title( $prefix = '', $display = true ) {
 	 * @param object $_post       The current queried object as returned by get_queried_object().
 	 */
 	$title = apply_filters( 'single_post_title', $_post->post_title, $_post );
-	$title = strtoupper(str_replace('O',"<span style='color: #EF4B26'>O</span>", $title));
+	//$title = strtoupper(str_replace('O',"<span style='color: #EF4B26'>O</span>", $title));
 	if ( $display )
 		echo $prefix . $title;
 	else

@@ -26,6 +26,15 @@
     <script>
         base_url = "<?php echo get_site_url() ?>"
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88916044-2"></script> 
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+ 
+    gtag('config', 'UA-88916044-2');
+    </script>
 </head>
 
 <body <?php body_class(); ?>>
