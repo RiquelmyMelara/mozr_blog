@@ -5,6 +5,7 @@ function wp_run_prettify() {
     wp_enqueue_script('run_prettify');
 }
 function add_custom_js() {
+    wp_enqueue_style('parent-theme', get_template_directory_uri() .'/style.css');
     wp_register_script('custom_js', get_stylesheet_directory_uri() . '/js/custom.js', array('jquery'));
     $variables_array = array(
         'contenturl' => content_url()
