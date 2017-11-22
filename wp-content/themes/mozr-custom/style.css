@@ -641,3 +641,10 @@ div#btnautor p {
   margin-top: 32px;
   float: none;
 }
+.home .entry-content p{
+  font-size:12px;
+}
+
+.home .post .entry-footer span{
+  font-size:11px;
+}
