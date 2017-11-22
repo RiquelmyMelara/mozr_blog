@@ -276,7 +276,9 @@ td{
     margin-left: 0px;
     margin-right: 0px;
 }
-
+.page-template-mozr_blog .post-container{
+  margin-bottom: 20px;
+}
 .post-container h2{
     font-family: 'Montserrat', sans-serif;
 }
