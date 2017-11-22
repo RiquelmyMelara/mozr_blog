@@ -7,7 +7,7 @@ get_header(); ?>
 <div class="title" >
     <?php  if($_GET["category"] == null) { ?>
         <h1>
-            <?php echo single_post_title() ?>
+        <?php echo strtoupper(str_replace('O',"<span style='color: #EF4B26'>O</span>", get_the_title())) ?>
         </h1>
     <?php } else { ?>
         <h1>
