@@ -50,9 +50,9 @@
 				// Close all accordion items
 				if (settings.autoClose) {
 					allTitles.each(function() {
-						closeItem($(this));
+						$('.open').next().slideUp(duration);
 						$('.accordion-title').removeClass('open');
-						$('.accordion-content').css('display','none');
+						//$('.accordion-content').css('display','none');
 					});
 				}
 				let cl = $(this).attr("class").replace(' ','');
