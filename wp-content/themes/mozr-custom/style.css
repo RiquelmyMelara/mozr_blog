@@ -65,8 +65,17 @@ li.L5, li.L6, li.L7, li.L8, li.L9 {
   list-style-type: decimal !important;
   
 }
-.prettyprint li:before {
+.prettyprint .consoleStyleAll li:before {
   content: "$";
+  padding-right: 5px;
+}
+.consoleStyleFirst li:first-child:before {
+  content: "$";
+  padding-right: 5px;
+  margin-left: -10px;
+}
+
+.consoleStyleFirst li{
   padding-right: 5px;
 }
 .codestyle li:before {

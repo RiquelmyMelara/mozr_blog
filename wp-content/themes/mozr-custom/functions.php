@@ -34,7 +34,16 @@ function mozr_codestyle($atts = [], $content = null)
 function mozr_consolestyle($atts = [], $content = null)
 {
     // Add TL;DR $content    
-    $codeContent = "<pre class='prettyprint linenums:1 tab-size:4'>" .$content ."</pre>";
+    $a = shortcode_atts( array(
+        'lines' => 'empty',
+        'href'  =>  '#'
+    ), $atts );
+    $codeContent = "<pre class='prettyprint linenums:1 consoleStyleAll'>" .$content ."</pre>";
+
+    if($a['lines'] != 'empty'){
+        $codeContent = "<pre class='prettyprint linenums:1 consoleStyleFirst'>" .$content ."</pre>";
+    }
+    
     return $codeContent;
 }
 
