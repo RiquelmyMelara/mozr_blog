@@ -27,7 +27,12 @@ jQuery( document ).ready(function() {
     });
     
 });
-
+jQuery('#tldrref a').click(function(){
+    jQuery('html, body').animate({
+        scrollTop: jQuery( jQuery(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
 jQuery(window).load(function(){
     jQuery('.linenums p > *').unwrap();
     jQuery(".linenums li").filter(function(){
