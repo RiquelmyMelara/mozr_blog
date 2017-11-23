@@ -65,7 +65,7 @@ li.L5, li.L6, li.L7, li.L8, li.L9 {
   list-style-type: decimal !important;
   
 }
-.prettyprint .consoleStyleAll li:before {
+.consoleStyleAll li:before {
   content: "$";
   padding-right: 5px;
 }
