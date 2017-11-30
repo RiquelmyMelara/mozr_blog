@@ -39,59 +39,33 @@ get_header(); ?>
         </select>
     </div>
             <?php
-$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-            if($_GET["category"] == null) {
-                $lastposts = get_posts( array(
-                    'posts_per_page' => 3,
-                    'paged' => $paged
-                ) );
-            }else{
-                $lastposts = get_posts( array(
-                    'posts_per_page' => 3,
-                    'paged' => $paged,
-                    'category' => $_GET["category"]
-                ) );
+            $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+            $post_per_pages = 3;
+            $args = array( 
+                'paged' => $paged,
+                'post_type' => 'post',
+                'posts_per_page' => $post_per_pages);
+
+            if($_GET["category"] != null) {
+                $args['category'] = $_GET["category"];
             }
 
-
             if($_GET["recent"] == true) {
-                $args = array(
-                    'numberposts' => 10,
-                    'offset' => 0,
-                    'category' => 0,
-                    'orderby' => 'post_date',
-                    'order' => 'DESC',
-                    'include' => '',
-                    'exclude' => '',
-                    'meta_key' => '',
-                    'meta_value' =>'',
-                    'post_type' => 'post',
-                    'post_status' => 'draft, publish, future, pending, private',
-                    'suppress_filters' => true
-                );
-
-                $lastposts = wp_get_recent_posts( $args, ARRAY_A );
+                $args['orderby'] = 'post_date';
+                $args['order'] = 'DESC';                
             }
 
             if($_GET["popular"] == true){
-                $popularposts = new WP_Query( array( 
-                    'post_type' => 'post',
-                    'posts_per_page' => '10',
-                    'meta_key' => 'mozr_post_views_count', 
-                    'orderby' => 'meta_value',
-                    'date_query'     => array(
-                            array(
-                                'after' => '1 month ago'
-                            )
-                        ),
-                    'order' => 'DESC'  ) );
+                $args['meta_key'] = 'mozr_post_views_count';
+                $args['orderby'] = 'meta_value';
+                $args['date_query'] = array( array( 'after' => '1 month ago'));
+                $args['order'] = 'DESC';                
             }
-
             
+            $lastposts = new WP_Query($args);
             
-                if($_GET["popular"] == true){
-                    while($popularposts->have_posts()) : $popularposts->the_post();
-                    ?>
+            while($lastposts->have_posts()) : $lastposts->the_post();
+                ?>
                     <div class="col-md-6">
                         <div class="post-container">
                             <div class="post-category">
@@ -114,45 +88,17 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
                             </div>
                         </div>
                     </div>
-                    <?php
-                    endwhile;
-                }else{
-                    foreach ( $lastposts as $post ) :
-                        setup_postdata( $post ); ?>
-                        <div class="col-md-6">
-                            <div class="post-container">
-                                <div class="post-category">
-                                    <a href="<?php echo get_site_url() ?>/blog/?category=<?php echo get_the_category()[0]->cat_ID; ?>"><?php echo get_the_category()[0]->cat_name; ?></a>
-                                </div>
-                                <img src="<?php echo the_post_thumbnail_url() ?>" alt="Feature Image">
-                                <div class='blog-content'>
-                                    <p class='post-date'><?php echo get_the_date()?></p>
-                                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                                    <p class='post-description'>
-                                        <?php echo get_the_excerpt(); ?>
-                                    </p>
-                                    <a href="<?php the_permalink(); ?>">
-                                        <div class="read-this">
-                                            Read this post
-                                        </div>
-                                    </a>
-    
-                                    <a href="" class='post-author'>By <?php echo get_the_author()?></a>
-                                </div>
-                            </div>
-                        </div>
-                    <?php
-                    endforeach; 
-                }
+                <?php
+            endwhile;                
                 
              ?>
              <div class="navigation col-md-12">
                 <?php 
-                                
+                    $big = 999999999;                   
                     $paging_args = array(
-                        'base'         => '%_%',
-                        'format'       => '?paged=%#%',
-                        'total'        => count($lastposts),
+                        'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+                        'format' => '?paged=%#%',
+                        'total'        => $lastposts->max_num_pages,
                         'current'      => max(1, get_query_var('paged')),
                         'end_size'     => 1,
                         'mid_size'     => 1,
