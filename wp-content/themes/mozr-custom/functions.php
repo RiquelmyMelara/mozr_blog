@@ -11,6 +11,8 @@ function add_custom_js() {
         'contenturl' => content_url()
     );
     wp_localize_script( 'custom_js', 'custom_varibles', $variables_array );
+    wp_localize_script( 'custom_js', 'my_ajax_object', array( 'ajax_url' => admin_url( 'admin-ajax.php' ) ) );
+
     wp_enqueue_script('custom_js');
 }
 
