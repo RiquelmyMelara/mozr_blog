@@ -113,7 +113,7 @@
 			</div>
 	</div>
 	<?php echo do_shortcode( '[mailchimpform]' ); ?>
-	</div>
+	
 	<!--<footer class="entry-footer">
 		<?php
 			edit_post_link(
