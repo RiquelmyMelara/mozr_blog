@@ -107,3 +107,10 @@ function mapi_register_settings() {
     wp_send_json($return);
     die();
 }
+function mailchimpform_callback($atts = [], $content = null)
+{
+    $mailchimpform = "<div class='row'><div class='col-xs-12 col-md-6 col-md-offset-3'><div class='subscription'><p class='subscription-title'>Enter your email to get weekly blog updates</p><div><div class='col-md-12'><div class='col-md-8' style='padding: 0px'><input type='text' placeholder='Email Address'></div><div class='col-md-4' style='padding: 0px'><button>Subscribe</button></div></div></div></div></div></div>";
+    return $mailchimpform;
+}
+
+add_shortcode('mailchimpform', 'mailchimpform_callback');

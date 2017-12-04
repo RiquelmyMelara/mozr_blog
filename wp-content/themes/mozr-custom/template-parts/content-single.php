@@ -112,23 +112,7 @@
 				
 			</div>
 	</div>
-
-	<div class="row">
-		<div class="col-xs-12 col-md-6 col-md-offset-3">
-			<div class="subscription">
-				<p class='subscription-title'>Enter your email to get weekly blog updates</p>
-				<div>
-					<div class="col-md-12">
-						<div class="col-md-8" style='padding: 0px'>
-							<input type="text" placeholder="Email Address">
-						</div>
-						<div class="col-md-4" style='padding: 0px'>
-							<button>Subscribe</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<?php echo do_shortcode( '[mailchimpform]' ); ?>
 	</div>
 	<!--<footer class="entry-footer">
 		<?php
