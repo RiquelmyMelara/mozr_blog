@@ -72,14 +72,19 @@ function mapi_register_settings() {
     $apikey = get_option('mapi_api_key');
     $mapiDomain = get_option('mapi_api_domain');
     $email = $_POST['email'];
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
     $listID = $_POST['listID'];
     $auth = base64_encode( 'user:'.$apikey );
-    // mail list ID is: ec44343ba8
-    //mail domain is: us17
+
     $data = array(
         'apikey'        => $apikey,
         'email_address' => $email,
-        'status'        => 'subscribed'
+        'status'        => 'subscribed',
+        'merge_fields'  => [
+            'FNAME'     => $firstname ?? '',
+            'LNAME'     => $lastname ?? ''
+        ]
     );
     $json_data = json_encode($data);
     $ch = curl_init();
@@ -107,10 +112,20 @@ function mapi_register_settings() {
     wp_send_json($return);
     die();
 }
-function mailchimpform_callback($atts = [], $content = null)
+function mailchimpnl_callback($atts = [], $content = null)
 {
-    $mailchimpform = "<div class='row'><div class='col-xs-12 col-md-6 col-md-offset-3'><div class='subscription'><p class='subscription-title'>Enter your email to get weekly blog updates</p><div><div class='col-md-12'><div class='col-md-8' style='padding: 0px'><input type='text' placeholder='Email Address'></div><div class='col-md-4' style='padding: 0px'><button>Subscribe</button></div></div></div></div></div></div>";
-    return $mailchimpform;
+    $a = shortcode_atts( array(
+        'listid' => 'empty'
+    ), $atts );
+    $listId = $a['listid'];
+    include_once( plugin_dir_path( __FILE__ ) . 'includes/newsletter.php' );
 }
 
-add_shortcode('mailchimpform', 'mailchimpform_callback');
+add_shortcode('mailchimpnl', 'mailchimpnl_callback');
+
+function mailchimp_api_js() {   
+    wp_enqueue_style( 'mailchimp-api-css', plugin_dir_url( __FILE__ ) . 'css/mailchimp-api.css', array(), '0.1' );
+    wp_enqueue_script( 'mailchimp-api', plugin_dir_url( __FILE__ ) . 'js/mailchimp-api.js', array('jquery') );
+}
+
+add_action('wp_enqueue_scripts', 'mailchimp_api_js');

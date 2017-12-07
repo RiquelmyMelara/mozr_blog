@@ -112,7 +112,7 @@
 				
 			</div>
 	</div>
-	<?php echo do_shortcode( '[mailchimpform]' ); ?>
+	<?php echo do_shortcode( '[mailchimpnl listid="ec44343ba8"]' ); ?>
 	
 	<!--<footer class="entry-footer">
 		<?php
