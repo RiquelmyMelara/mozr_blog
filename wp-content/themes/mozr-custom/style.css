@@ -712,6 +712,7 @@ div#btnautor p {
     line-height: 25px;
     margin: 0 auto;
     padding-right: 65px;
+    width: 80%;
   }
   
   .shape-0{
@@ -927,7 +928,22 @@ div#btnautor p {
     width: 100%;
   }
   
-  
+  @media (min-width: 1678px) {
+    .shape-3{
+      background-position-x: -50px;
+      background-size: 57% 100%;
+    } 
+    .shape-4{
+      background-size: 55% 100%;
+    }
+    .shape-6{
+      background-size: 55% 100%;
+    } 
+    .shape-8{
+      background-size: 55% 100%;
+    } 
+  }
+
   @media (max-width: 425px) {
     .home-title{
       font-size: 40px !important;

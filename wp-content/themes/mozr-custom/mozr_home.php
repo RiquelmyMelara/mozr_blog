@@ -23,7 +23,7 @@
      </div><!-- Content  -->
  </div> <!-- Row  -->
  
- <div class="shape-1-container" style='background-color:white'>
+ <div class="shape-1-container" style='background-color:white;position: relative;'>
      <div class="container">
  
          <div class='shape-1'>
