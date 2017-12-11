@@ -160,24 +160,15 @@
      <div class="container">
          <h3 class='h3-title'>Latest Post</h3>
          <?php 
-             $args = array(
-                     'numberposts' => 2,
-                     'offset' => 0,
-                     'category' => 0,
-                     'orderby' => 'post_date',
-                     'order' => 'DESC',
-                     'include' => '',
-                     'exclude' => '',
-                     'meta_key' => '',
-                     'meta_value' =>'',
-                     'post_type' => 'post',
-                     'post_status' => 'draft, publish, future, pending, private',
-                     'suppress_filters' => true
-                 );
+            $args = array( 
+            'posts_per_page' => '2',
+            'post_type' => 'post',
+            'orderby' => 'post_date',
+            'order' => 'DESC');
+            
+            $lastposts = new WP_Query($args);
  
-             $lastposts = wp_get_recent_posts( $args, ARRAY_A );
- 
-             foreach ( $lastposts as $post ) :
+            while($lastposts->have_posts()) : $lastposts->the_post();
                          setup_postdata( $post ); ?>
                  <div class="col-md-6">
                      <div class="post-container">
@@ -202,7 +193,7 @@
                      </div>
                  </div>
          <?php
-             endforeach; 
+             endwhile; 
          ?>
      </div>
  </div>
