@@ -951,11 +951,11 @@ div#btnautor p {
   
   
   
-    .page-template-mozr_home .row.jumbotron {
+    .page-template-mozr_home .row.jumbotron:nth-of-type(1) {
       width: 100%;
       background-image: url(img/shape-0.png);
       background-size: cover;
-      background-position: -263px 0px;
+      background-position: -263px -40px;
     }
   
     .shape-0 {
@@ -974,6 +974,7 @@ div#btnautor p {
   
     .page-template-mozr_home .row.jumbotron{
       height: 620px;
+      background-color: #F7F6F5;
     }
   
     .shape-1-container .p-opensans{
