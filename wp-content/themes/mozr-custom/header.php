@@ -38,7 +38,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
+<div id="page" class="site page-<?php echo get_the_ID() ?>">
     
 
 
@@ -106,7 +106,16 @@
             </header><!-- .site-header -->
         </div>
     </div>
-
-    <div class="row"> <!-- row -->
+<?php 
+    if ( is_page_template( 'mozr_home.php' ) ) {
+        ?>
+        <div class="row jumbotron"> <!-- row -->
+        <?php
+    } else {
+        ?>
+        <div class="row"> <!-- row -->
+        <?php
+    }
+?>
         <div id="content" class="container"> <!-- container -->
         
