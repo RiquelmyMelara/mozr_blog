@@ -793,7 +793,7 @@ div#btnautor p {
   
   .shape-4{
     background-image: url('img/shape-4.png');
-    background-position-x: 485px;
+    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     height: 415px;
@@ -803,7 +803,7 @@ div#btnautor p {
   
   .shape-8{
     background-image: url('img/shape-4.png');
-    background-position-x: 485px;
+    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     height: 415px;
