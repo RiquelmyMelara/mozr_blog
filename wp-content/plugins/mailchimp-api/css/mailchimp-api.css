@@ -15,3 +15,103 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+/* Contact Page */
+
+.contactform .contactform-left{
+    padding-top: 80px;
+  }
+  .page-template-mozr_contact .container-fluid{
+    background-color: #F7F6F4;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  .contactform .contactform-right{
+    background-color: white;
+    padding: 5% 4%;
+  }
+  .page-template-mozr_contact #content{
+    width: 100% !important;
+  }
+  .contactform{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .contactform .input-description{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contactform button:hover{
+    background: #f36b4f;
+  }
+  .contactform input{
+    height: 42px;
+    background-color: white !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    border-bottom: 2px solid #d1d1d1 !important;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+  
+  .contactform input:focus{
+    border-color: #F75737 !important;
+  }
+  
+  .contactform .contact-title{
+    font-size: 39px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    float: right;
+  }
+  
+  .contactform .contact-subtitle{
+    font-size: 20px;
+    font-weight: 900;
+    color: #F75737;
+    float: right;
+  }
+  
+  .contactform button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #F75737;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: 400 !important;
+    border-radius: 0px;
+  }
+  @media (max-width: 990px) {
+    .contactform-left{
+        height:210px;
+        padding-top: 40px !important;
+        margin-left: 25px;
+    }
+    .contactform .contact-title{
+        float:left;
+    }
+    .contactform .contact-subtitle{
+        float:left;
+    }
+  }
+  
+  @media (max-width: 540px){
+    .contactform-left {
+        height: 280px;
+    }
+  }
+  @media (max-width: 410px){
+    .contactform-left {
+        height: 310px;
+    }
+  }
+  
+  @media (max-width: 350px){
+    .contactform-left {
+        height: 350px;
+    }
+  }
