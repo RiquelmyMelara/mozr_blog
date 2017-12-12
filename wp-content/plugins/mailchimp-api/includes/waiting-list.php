@@ -23,13 +23,27 @@
                 </div>
             </div>
 
-            <div class='col-md-12' style='padding: 0px;margin-bottom: 50px;'>
+            <div class='col-md-12' id="mailchimpwl-holder"style='padding: 0px;margin-bottom: 50px;'>
                 <div class='col-md-4' id="ajax-subscribe">
                     <button id="submit-waiting-list">Join Our Waiting List</button>
                 </div>
-                <div style="display:none;" id="ajax-result" class='col-md-4'>
-                    <div class="input-description">Thank you for joining!</div>
+            </div>
+            
+            <div style='display:none;margin-left: 15%;' class='loader col-md-4'>
+            </div>
+            
+            <div id='waitingl-success' style='display:none;width: 60%;' class='col-md-4'>
+                <div style=' margin-top: 40px;'>
+                    <p class='subscription-title'>Thank you for joining our waiting list!</p>
+                    <p class='subscription-title'>We will reach out soon.</p>
                 </div>
             </div>
+            <div id='waitingl-error' style='display:none;width: 60%;' class='col-md-4'>
+                <div style=' margin-top: 40px;'>
+                    <p class='subscription-title'>Oops something went wrong!</p>
+                    <p class='subscription-title'>Please try again later.</p>
+                </div>
+            </div>
+           
     </div>
 </div>
