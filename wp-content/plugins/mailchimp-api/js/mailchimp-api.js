@@ -30,9 +30,15 @@ jQuery(document).ready(function($){
             }
         });
     });
+    
+    jQuery("#submit-waiting-list").click(function(){
+        
+        add_member_to_list(jQuery("#mailchimpwl-fullname").val(),jQuery("#mailchimpwl-email").val(),jQuery("#mailchimpwl-website").val(),jQuery("#mailchimpwl-listid").val());
+    });
+    
 });
 
-function add_member_to_list(fullname, email, listId){
+function add_member_to_list(fullname, email, website, listId){
     var fields = fullname.split(' ');    
     var firstname = fields[0];
     var lastname = fields[1];
@@ -45,7 +51,8 @@ function add_member_to_list(fullname, email, listId){
             email: email,
             listID: listId,
             firstname: firstname,
-            lastname: lastname
+            lastname: lastname,
+            website: website,
         },
         success: function (data) {
             console.log(data); 

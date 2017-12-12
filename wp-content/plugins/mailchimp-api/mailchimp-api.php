@@ -74,6 +74,7 @@ function mapi_register_settings() {
     $email = $_POST['email'];
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
+    $website = $_POST['website'];
     $listID = $_POST['listID'];
     $auth = base64_encode( 'user:'.$apikey );
 
@@ -83,7 +84,8 @@ function mapi_register_settings() {
         'status'        => 'subscribed',
         'merge_fields'  => [
             'FNAME'     => $firstname ?? '',
-            'LNAME'     => $lastname ?? ''
+            'LNAME'     => $lastname ?? '',
+            'WSITE'     => $website ?? '',
         ]
     );
     $json_data = json_encode($data);
@@ -102,7 +104,7 @@ function mapi_register_settings() {
     $result = curl_exec($ch);
     $json = json_decode($result, true);
     $return = array();
-
+    
     if($json["status"] == "subscribed"){
         $return['status'] =  'Success';
     }else{
@@ -122,6 +124,17 @@ function mailchimpnl_callback($atts = [], $content = null)
 }
 
 add_shortcode('mailchimpnl', 'mailchimpnl_callback');
+
+function mailchimpwl_callback($atts = [], $content = null)
+{
+    $a = shortcode_atts( array(
+        'listid' => 'empty'
+    ), $atts );
+    $listId = $a['listid'];
+    include_once( plugin_dir_path( __FILE__ ) . 'includes/waiting-list.php' );
+}
+
+add_shortcode('mailchimpwl', 'mailchimpwl_callback');
 
 function mailchimp_api_js() {   
     wp_enqueue_style( 'mailchimp-api-css', plugin_dir_url( __FILE__ ) . 'css/mailchimp-api.css', array(), '0.1' );
