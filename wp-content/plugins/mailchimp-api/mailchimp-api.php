@@ -72,20 +72,20 @@ function mapi_register_settings() {
     $apikey = get_option('mapi_api_key');
     $mapiDomain = get_option('mapi_api_domain');
     $email = $_POST['email'];
-    $firstname = $_POST['firstname'];
-    $lastname = $_POST['lastname'];
-    $website = $_POST['website'];
+    $firstname = isset($_POST['firstname']) ? $_POST['firstname'] : '';
+    $lastname = isset($_POST['lastname']) ? $_POST['lastname'] : '';
+    $website = isset($_POST['website']) ? $_POST['website'] : '';
     $listID = $_POST['listID'];
     $auth = base64_encode( 'user:'.$apikey );
-
+    
     $data = array(
         'apikey'        => $apikey,
         'email_address' => $email,
         'status'        => 'subscribed',
         'merge_fields'  => [
-            'FNAME'     => $firstname ?? '',
-            'LNAME'     => $lastname ?? '',
-            'WSITE'     => $website ?? '',
+            'FNAME'     => $firstname,
+            'LNAME'     => $lastname,
+            'WSITE'     => $website,
         ]
     );
     $json_data = json_encode($data);
