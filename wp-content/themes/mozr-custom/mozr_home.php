@@ -37,9 +37,9 @@
  <div class="row shape-3">
      <div class="container">
          <div class="col-md-5 col-md-offset-1">
-             <h3 class='h3-title'>Dedicated <br> Hardware <br>. . .</h3>
+             <h3 class='h3-title'>Dedicated Hardware</h3>
              <p class='p-opensans p-dedicated-hardware'>
-                 The first component for scaling your website is to have good hardware that is dedicated to you.  Most web hosting companies put hundreds of websites on the same hardware and then charge each company a fraction of the server cost.  This is great if you want to keep costs low but is really detrimental when another site is hogging all of the hardware resources.  If you want to scale your website the fastest way to make major improvements is to get on a host that will dedicate hardware resources to your site and your site alone.  We leverage the Amazon Web Services Elastic Compute Cloud to deliver best in class hardware resources dedicated to your site.
+             The foundation for scaling is good hardware dedicated to you. Most web hosting companies put hundreds of websites on the same hardware and charge each company a fraction of the server cost. This is great if you want to keep costs low, but it’s detrimental to your business when other sites deplete hardware resources leaving your site unable to perform. You need a host that offers hardware dedicated to your site and your site alone. Dedicated resources accelerate performance boosts and deliver long-term scaling. We leverage the Amazon Web Services Elastic Compute Cloud to deliver best-in-class hardware resources devoted to your site.
              </p>
          </div>
          <di class="col-md-6">
@@ -55,9 +55,9 @@
              <img class='shape-5' src="<?php echo get_stylesheet_directory_uri() ?>/img/shape-5.png" alt="hardware">
          </di>
          <div class="col-md-4 ">
-             <h3 class='h3-title '>Server <br> Software <br></h3>
+             <h3 class='h3-title '>Server Software <br></h3>
              <p class='p-opensans p-dedicated-hardware'>
-                 Once you have your store running on the proper hardware it is time to look the Server Software. We take advantage for the highest performance server software stack available forWordpress.  LOGOS (NGINX, REDIS, ELASTIC SEARCH,  AMAZON AURORA)
+             The core of your business runs on server software. You need the right environment to power productivity. Mozr leverages only the highest performance software technology available on the web. We take advantage of Amazon’s leading technology stack with a focus on WordPress and WooCommerce stability and sustainability. Mozr empowers business owners using NGINX, REDIS, ELASTICSEARCH, and AMAZON AURORA.
              </p>
          </div>
      </div>
@@ -66,9 +66,9 @@
  <div class="row shape-6">
      <div class="container">
          <div class="col-md-5 col-md-offset-1">
-             <h3 class='h3-title color-blue'>Caching <br> . . . <br></h3>
+             <h3 class='h3-title color-blue'>Caching Optimization</h3>
              <p class='p-opensans p-dedicated-hardware'>
-                 Proper caching is the key to speed and scale.  When you host your site with MOZR you will get our best in class multi tier caching system
+             Optimized caching is key to website speed and scaling. Mozr incorporates multi-tier caching using a myriad of technologies. We offer asset, static page, database, OP, and object caching. Our multi-tier approach provides autonomous development and robust solutions for your business.  
              </p>
          </div>
          <di class="col-md-6">
@@ -148,9 +148,9 @@
              <img class='shape-9' src="<?php echo get_stylesheet_directory_uri() ?>/img/shape-9.png" alt="hardware">
          </di>
          <div class="col-md-4 ">
-             <h3 class='h3-title color-darkblue'>Code <br> . . . <br></h3>
+             <h3 class='h3-title color-darkblue'>Code</h3>
              <p class='p-opensans p-dedicated-hardware'>
-                 The final place to look for optimizations for your site is in the code itself. MOZR offers professional development services to audit your code and give suggestions on how you can modify your code to make your site run faster.
+             Code is your site’s building blocks. Just one weak block will crush site performance. Mozr prioritizes code performance and site stability using professional software development. We audit, manage, and refine your site code so no building block throttles site performance from poor development. Our team of developers streamline WordPress code and ensure only the fastest performance available. 
              </p>
          </div>
      </div>

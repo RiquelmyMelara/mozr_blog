@@ -787,7 +787,7 @@ div#btnautor p {
     background-size: contain;
     background-repeat: no-repeat;
     padding: 50px 0px;
-    height: 550px;
+    height: 428px;
     margin: 80px 0px;
   }
   
@@ -796,7 +796,7 @@ div#btnautor p {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 415px;
+    height: 450px;
     margin: 80px 0px;
     padding: 105px 0px;
   }
@@ -806,7 +806,7 @@ div#btnautor p {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 415px;
+    height: 470px;
     margin: 80px 0px;
     padding: 105px 0px;
   }
@@ -817,7 +817,7 @@ div#btnautor p {
     background-size: contain;
     background-repeat: no-repeat;
     padding: 121px 0px;
-    height: 450px;
+    height: 430px;
     margin: 80px 0px;
   }
   
@@ -943,7 +943,17 @@ div#btnautor p {
       background-size: 55% 100%;
     } 
   }
-
+  @media (min-width: 1500px) {
+    .shape-4{
+    background-size: 55% 100%;
+    }
+  }
+  @media (min-width: 1350px) {
+    .shape-3{
+      background-position-x: -50px;
+      background-size: 57% 100%;
+    } 
+  }
   @media (max-width: 425px) {
     .home-title{
       font-size: 40px !important;
