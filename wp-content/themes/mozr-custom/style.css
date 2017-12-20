@@ -783,7 +783,7 @@ div#btnautor p {
   
   .shape-3{
     background-image: url(img/shape-3-1.png);
-    background-position-x: -125px;
+    background-position-x: 0px;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 50px 0px;
