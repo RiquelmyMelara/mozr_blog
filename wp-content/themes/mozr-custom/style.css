@@ -370,8 +370,11 @@ td{
   font-size: 11px;
   display: initial;
 }
-.post-cont {
+body, button, input, select, textarea{
   font-size: 14px;
+}
+.post-cont {
+  font-size: 21px;
 }
 .entry-header
 {
