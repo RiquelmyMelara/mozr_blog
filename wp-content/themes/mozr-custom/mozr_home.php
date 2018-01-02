@@ -16,7 +16,7 @@
                  </h1>
                  <button class='blue-btn'>Learn More</button><button class='orange-btn'>Join Our Waiting List</button>
              </div>
-             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/shape-0.png" class='shape-0' alt="">
+             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/homepage_image.png" class='shape-0' alt="">
          </div>
      </div>
  
