@@ -114,7 +114,9 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
       max-width: 110px;
   }
 }
-
+.uptime-container{
+  padding: 80px 0px;
+}
 #page{
   margin: 0px !important;
 }
