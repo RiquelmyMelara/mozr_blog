@@ -206,6 +206,7 @@
          </button>
      </div>
  </div>
-  
+ <div class=""> <!-- row -->
+     <div id="content" class="container">
  <?php
  get_footer();
