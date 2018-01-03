@@ -9,7 +9,8 @@
  * @since Twenty Sixteen 1.0
  */
 ?>
-
+        </div><!-- row -->
+   </div><!-- container -->
     <div class="row">
         <div class=" gray-line"></div>
         <div class='container footer'>
