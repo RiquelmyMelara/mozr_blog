@@ -5,6 +5,18 @@
  get_header(); ?>
     </div><!-- Content  -->
     <img src="<?php echo get_stylesheet_directory_uri() ?>/img/uptime_image.jpg"  alt="">
+    <div class="container jb-mobile" style="margin-top: 90px">
+    
+    <div class="col-md-6 uptime-page-title">
+        <h1>
+            Mozr Uptime <br>
+            Guarantee
+        </h1>
+        
+    </div>
+   
+</div>
+    
 
 </div> <!-- Row  -->
 <div class=""> <!-- row -->
