@@ -1,101 +1,101 @@
 @media screen and (max-width:1530px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 26%;
   }
 }
 @media screen and (max-width:1400px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 24%;
   }
 }
 @media screen and (max-width:1280px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 22%;
   }
 }
 @media screen and (max-width:1130px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 20%;
   }
 }
 @media screen and (max-width:1040px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 18%;
   }
 }
 @media screen and (max-width:900px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 16%;
   }
 }
 @media screen and (max-width:900px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 15%;
   }
 }
 
 @media screen and (max-width:700px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 14%;
   }
 }
 @media screen and (max-width:670px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 14%;
   }
-  .uptime-page-title h1{
+  .mozr-page-title h1{
     font-size: 35px !important;
   }
 }
 @media screen and (max-width:590px)
 {
-    .container .uptime-page-title{
+    .container .mozr-page-title{
     top: 14%;
   }
-  .uptime-page-title h1{
+  .mozr-page-title h1{
     font-size: 34px !important;
   }
 }
 @media screen and (max-width:535px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 13%;
   }
-  .uptime-page-title h1{
+  .mozr-page-title h1{
     font-size: 32px !important;
   }
 }
 @media screen and (max-width:490px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 13%;
   }
-  .uptime-page-title h1{
+  .mozr-page-title h1{
     font-size: 28px !important;
   }
 }
 @media screen and (max-width:450px)
 {
-  .container .uptime-page-title h1{
+  .container .mozr-page-title h1{
     font-size: 25px !important;
   }
 }
 @media screen and (max-width:400px)
 {
-  .container .uptime-page-title{
+  .container .mozr-page-title{
     top: 12%;
   }
 
-  .uptime-page-title h1{
+  .mozr-page-title h1{
     font-size: 20px !important;
   }
 }

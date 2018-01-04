@@ -121,8 +121,35 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
   color: #353535 !important;
   font-size: 50px;
 }
-.uptime-page-title{
+.mozr-page-title{
   position: absolute;top: 28%;
+}
+.white{
+  color:white;
+}
+.CDN-container{
+  background-color: #F7F6F5;
+}
+.center-text{
+  text-align: center;
+}
+.amazon-cloudfront{
+  border: solid 1px lightgrey;
+  padding: 60px 20px;
+}
+.mozr-template-icon{
+  width: 15%;
+}
+.container .margin-top-150{
+  margin-top: 150px;
+}
+
+.container .margin-y-50{
+  margin: 50px 0px;
+}
+
+.margin-bottom-50{
+  margin-bottom: 50px;
 }
 
 #page{
