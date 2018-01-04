@@ -19,6 +19,12 @@ function add_custom_js() {
 add_action( 'wp_enqueue_scripts', 'add_custom_js' ); 
 add_action( 'wp_enqueue_scripts', 'wp_run_prettify' ); 
 
+function responsive_styles()  
+{ 
+	wp_enqueue_style( 'responsive', get_stylesheet_directory_uri() . '/responsive.css' );
+}
+add_action('wp_enqueue_scripts', 'responsive_styles');
+
 function tldr_shortcode($atts = [], $content = null)
 {
     // Add TL;DR $content    
