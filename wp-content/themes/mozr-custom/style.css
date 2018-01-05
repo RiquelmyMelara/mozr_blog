@@ -127,7 +127,7 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 .white{
   color:white;
 }
-.CDN-container{
+.CDN-container, .security-container{
   background-color: #F7F6F5;
 }
 .center-text{
@@ -136,6 +136,12 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 .amazon-cloudfront{
   border: solid 1px lightgrey;
   padding: 60px 20px;
+}
+.container .margin-y-100{
+  margin: 100px 0px;
+}
+.margin-bottom-100{
+  margin-bottom: 100px;
 }
 .mozr-template-icon{
   width: 15%;

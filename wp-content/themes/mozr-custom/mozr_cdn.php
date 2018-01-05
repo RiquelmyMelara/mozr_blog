@@ -85,7 +85,7 @@
         <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-06.png"  alt="">
             <h3>Cost efficient</h3>
-            <p>WIth cloud hosting, you pay for re-
+            <p>With cloud hosting, you pay for re-
             sources that you use. This advan-
             tage makes it much more cost ef-
             fective for organizations that don’t
