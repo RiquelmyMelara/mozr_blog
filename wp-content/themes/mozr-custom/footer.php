@@ -24,7 +24,7 @@
                 <p class='footer-column-element'>DATA CENTERS</p>
                 <p linkto="Uptime" class='footer-column-element footer-link'>UPTIME</p>
                 <p class='footer-column-element'>PERFORMANCE</p>
-                <p linkto="Security" class='footer-column-element'>SECURITY / SSL</p>
+                <p linkto="Security" class='footer-column-element footer-link'>SECURITY / SSL</p>
                 <p class='footer-column-element'>DNS</p>
                 <p linkto="CDN" class='footer-column-element footer-link'>CDN</p>
             </div>
