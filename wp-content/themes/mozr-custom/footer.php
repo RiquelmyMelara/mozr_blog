@@ -22,11 +22,11 @@
             <div class="col-md-2">
                 <p class='footer-column-title'>TECHNOLOGY</p>
                 <p class='footer-column-element'>DATA CENTERS</p>
-                <p class='footer-column-element'>UPTIME</p>
+                <p linkto="Uptime" class='footer-column-element footer-link'>UPTIME</p>
                 <p class='footer-column-element'>PERFORMANCE</p>
-                <p class='footer-column-element'>SECURITY / SSL</p>
+                <p linkto="Security" class='footer-column-element'>SECURITY / SSL</p>
                 <p class='footer-column-element'>DNS</p>
-                <p class='footer-column-element'>CDN</p>
+                <p linkto="CDN" class='footer-column-element footer-link'>CDN</p>
             </div>
             <div class="col-md-2">
                 <p class='footer-column-title'>COMPANY</p>

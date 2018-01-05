@@ -130,6 +130,9 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 .CDN-container, .security-container{
   background-color: #F7F6F5;
 }
+.footer-link{
+  cursor: pointer;
+}
 .center-text{
   text-align: center;
 }

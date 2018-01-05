@@ -31,6 +31,10 @@ jQuery( document ).ready(function() {
         }, 500);
         return false;
     });
+    jQuery('.footer-link').click(function () {
+        var link = jQuery(jQuery(this)).attr("linkto");
+        window.location.href = base_url + "/" +link;
+    });
 });
 
 jQuery(window).load(function(){
