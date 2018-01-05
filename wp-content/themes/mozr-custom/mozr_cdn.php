@@ -20,10 +20,10 @@
 </div>
  <!-- Row  -->
 <div class="col-xs-12 col-md-8 col-md-offset-2 post-cont">
-    <div class="col-xs-6 center-text">
+    <div class="col-sm-6 center-text">
         <img class="amazon-cloudfront" src="<?php echo get_stylesheet_directory_uri() ?>/img/amazon-cloudfront.png"  alt="">
     </div>
-    <div class="col-xs-6">
+    <div class="col-sm-6 amazon-cloudfront-description">
         <p>Amazon CloudFront is one of the leading CDNs on the market. It
         offers fast streaming, data delivery, application processing and
         API hosting. Mozr utilizes Amazon’s cloud infrastructure to offer
@@ -41,14 +41,14 @@
     <div class="container">
         <h2 class="center-text margin-top-150">We choose AWS and Amazon CloudFront for the value it brings<br>
         to our customers</h2>
-        <div class="col-xs-4 margin-y-50">
+        <div class="col-sm-4 margin-y-50">
             <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-02.png"  alt="">
             <h3>A CDN with data centers around the globe</h3>
             <p>With 44 available zones, Amazon’s
                 cloud infrastructure offers a pres-
                 ence in 16 geographic regions.</p>
         </div>
-        <div class="col-xs-4 margin-y-50">
+        <div class="col-sm-4 margin-y-50">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-03.png"  alt="">
             <h3>Secure content</h3>
             <p>CloudFront provides
@@ -57,7 +57,7 @@
             All solutions are PCI, DSS, HIPAA
             and ISO compliant.</p>
         </div>
-        <div class="col-xs-4 margin-y-50">
+        <div class="col-sm-4 margin-y-50">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-04.png"  alt="">
             <h3>Out-of-the-box AWS integration</h3>
             <p>Easy configuration of any AWS ser-
@@ -67,7 +67,7 @@
     
     </div>
     <div class="container margin-bottom-50">
-        <div class="col-xs-4">
+        <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-05.png"  alt="">
             <h3>Top-notch performance</h3>
             <p>Amazon hosts some of the largest
@@ -82,7 +82,7 @@
             
             can offer.</p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-06.png"  alt="">
             <h3>Cost efficient</h3>
             <p>WIth cloud hosting, you pay for re-
@@ -93,7 +93,7 @@
             have high up-front technology
             budgets.</p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-07.png"  alt="">
             <h3>Ease of use</h3>
             <p>Anyone from developers and oper-
