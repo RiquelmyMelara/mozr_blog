@@ -7,16 +7,15 @@
      <div class="row jumbotron">
          <div class="container jb-mobile" style="margin-top: 90px">
              <br>
-             <div class="col-md-6 col-md-offset-6">
+             <div class="col-md-6 col-md-offset-6 z-index-99">
                  <h1 class="home-title">
                      We Scale <br>
-                     Wordpress & <br>
-                     WooCommerce <br>
-                     Sites
+                     <img class="woocommerce-logo" src="<?php echo get_stylesheet_directory_uri() ?>/img/WooCommerce.png"><br>
+                     Websites
                  </h1>
-                 <button class='blue-btn'>Learn More</button><button class='orange-btn'>Join Our Waiting List</button>
+                 <button id="homepage-learn-more" class='blue-btn'>Learn More</button><button class='orange-btn sign-up-button'>Sign Up</button>
              </div>
-             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/homepage_image.png" class='shape-0' alt="">
+             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/homepage_image.png" class='shape-0 z-index-1' alt="">
          </div>
      </div>
  
@@ -27,9 +26,9 @@
      <div class="container">
  
          <div class='shape-1'>
-             We have everything to make your store lighting fast and handle huge traffic spikes
+            We make your store lightning fast and capable of handling massive traffic.
          </div>
-         <h2 class='h2-title adjust-top'>Our Model For Scaling</h2>
+         <h2 class='h2-title adjust-top'>Our Platform</h2>
          <p class='p-opensans adjust-top'>Say goodbye to disputes around data definitions, governance and metrics. Periscope Data is the single source of truth for all your data.</p>
      </div>
  </div>

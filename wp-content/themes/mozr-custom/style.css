@@ -133,6 +133,18 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 .footer-link{
   cursor: pointer;
 }
+.z-index-1{
+  z-index: 1;
+}
+.z-index-99{
+  z-index: 99;
+}
+.sign-up-button{
+  width: 133px;
+}
+.woocommerce-logo{
+  width:78%;
+}
 .center-text{
   text-align: center;
 }

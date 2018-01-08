@@ -35,6 +35,10 @@ jQuery( document ).ready(function() {
         var link = jQuery(jQuery(this)).attr("linkto");
         window.location.href = base_url + "/" +link;
     });
+    jQuery("#homepage-learn-more").click(function() {
+        var aTag = jQuery(".shape-1-container");
+        jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
+     });
 });
 
 jQuery(window).load(function(){
@@ -43,5 +47,3 @@ jQuery(window).load(function(){
         return jQuery(this).html().match(/&nbsp;/) !== null;
     }).addClass("removeBashStyle");
 });
-
-
