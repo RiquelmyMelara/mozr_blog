@@ -15,11 +15,6 @@
         <div class=" gray-line"></div>
         <div class='container footer'>
             <div class="col-md-3">
-                <p class='footer-column-title'>TUTORIALS</p>
-                <p class='footer-column-element'>WORDPRESS TUTORIALS</p>
-                <p class='footer-column-element'>WOOCOMMERCE TUTORIALS</p>
-            </div>
-            <div class="col-md-2">
                 <p class='footer-column-title'>TECHNOLOGY</p>
                 <p class='footer-column-element'>DATA CENTERS</p>
                 <p linkto="Uptime" class='footer-column-element footer-link'>UPTIME</p>
@@ -28,7 +23,7 @@
                 <p class='footer-column-element'>DNS</p>
                 <p linkto="CDN" class='footer-column-element footer-link'>CDN</p>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <p class='footer-column-title'>COMPANY</p>
                 <p class='footer-column-element'>ABOUT US</p>
                 <p class='footer-column-element'>PROFESSIONAL SERVICES</p>

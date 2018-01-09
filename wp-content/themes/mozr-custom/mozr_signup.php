@@ -1,7 +1,7 @@
 
 <?php
 /*
-Template Name: MOZR Contact Template
+Template Name: MOZR Signup Template
 */
 
 get_header(); 

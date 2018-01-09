@@ -22,14 +22,14 @@
      </div><!-- Content  -->
  </div> <!-- Row  -->
  
- <div class="shape-1-container" style='background-color:white;position: relative;'>
+ <div id="home-our-platform" class="shape-1-container" style='background-color:white;position: relative;'>
      <div class="container">
  
          <div class='shape-1'>
             We make your store lightning fast and capable of handling massive traffic.
          </div>
          <h2 class='h2-title adjust-top'>Our Platform</h2>
-         <p class='p-opensans adjust-top'>Say goodbye to disputes around data definitions, governance and metrics. Periscope Data is the single source of truth for all your data.</p>
+         <p class='p-opensans adjust-top'>The MOZR web hosting platform was built to help companies bridge the gap between low cost hosting providers and hiring their own dedicated engineering team to get their website up on AWS. With MOZR, you gain the advantage of a world class engineering team building a custom platform for your e-commerce site on the AWS global infrastructure at a fraction of the cost of an in-house team. Our platform consists of four major components:</p>
      </div>
  </div>
  
@@ -200,8 +200,8 @@
  <div class=" interested-mozr">
      <div class="container">
          <h3 class='h3-title color-white'>Interested in Switching to MOZR? </h3>
-         <button class="orange-btn">
-             Join Our Waiting List
+         <button class="orange-btn sign-up-button">
+             Sign Up
          </button>
      </div>
  </div>

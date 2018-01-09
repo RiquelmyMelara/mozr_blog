@@ -39,6 +39,9 @@ jQuery( document ).ready(function() {
         var aTag = jQuery(".shape-1-container");
         jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
      });
+     jQuery('.sign-up-button').click(function () {
+        window.location.href = base_url + "/sign-up";
+    });
 });
 
 jQuery(window).load(function(){
