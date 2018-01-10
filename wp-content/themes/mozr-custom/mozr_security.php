@@ -92,7 +92,7 @@
             features.</p>
         </div>
         <div class="col-sm-4">
-        <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-13.png"  alt="">
+        <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_security_acces.png"  alt="">
             <h3>Identity and access control</h3>
             <p>You need to enforce permissions
             and manage accounts. We offer

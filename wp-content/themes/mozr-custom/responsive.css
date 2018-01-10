@@ -124,7 +124,7 @@
   }
 }
 @media screen and (max-width:767px){
-  .amazon-cloudfront-description{
+  .amazon-cloudfront-description, .performance-description{
     margin-top: 60px;
   }
 }
