@@ -178,6 +178,10 @@
   }
 }
 @media (max-width: 425px) {
+  #page .route-53-mobile{
+    text-align: center;
+    margin-bottom: 25px;
+  }
   #page .shape-6{
     background-position-x: 0px !important;
     background-size: 100% !important;

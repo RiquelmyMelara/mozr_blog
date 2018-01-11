@@ -18,9 +18,9 @@
                 <p class='footer-column-title'>TECHNOLOGY</p>
                 <p class='footer-column-element'>DATA CENTERS</p>
                 <p linkto="Uptime" class='footer-column-element footer-link'>UPTIME</p>
-                <p class='footer-column-element'>PERFORMANCE</p>
+                <p linkto="performance" class='footer-column-element footer-link'>PERFORMANCE</p>
                 <p linkto="Security" class='footer-column-element footer-link'>SECURITY / SSL</p>
-                <p class='footer-column-element'>DNS</p>
+                <p linkto="dns" class='footer-column-element footer-link'>DNS</p>
                 <p linkto="CDN" class='footer-column-element footer-link'>CDN</p>
             </div>
             <div class="col-md-3">
