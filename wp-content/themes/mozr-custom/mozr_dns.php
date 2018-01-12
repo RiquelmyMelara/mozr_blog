@@ -30,8 +30,8 @@
             offers fast streaming, data delivery, application processing and
             API hosting. Mozr utilizes Amazon’s cloud infrastructure to offer
 
-            only the fastest and most secure data protection for your web-
-            site. CloudFront is integrated with Amazon Web Services (AWS),
+            only the fastest and most secure data protection for your website. 
+            CloudFront is integrated with Amazon Web Services (AWS),
 
             making our WordPress designs and setup the best in speed, scal-
             ability, flexibility and reliability.</p>
@@ -39,8 +39,8 @@
         <div class="col-sm-12">
             <p>Since Mozr works exclusively with AWS for its speed and scalability, plugging Route 53 DNS
 
-            services into your applications is simple configurations and integration. The service is de-
-            signed to work well and easily integrate into other Amazon offerings.</p>
+            services into your applications is simple configurations and integration. The service is designed 
+            to work well and easily integrate into other Amazon offerings.</p>
             <p>Our leveraged DNS services are designed to be fast and simple. Whether you’re a developer
             that needs easily managed DNS or a business owner with little knowledge of the way the DNS
             protocol works, Mozr is here to help. Route 53 has low latency and even a self-service API for

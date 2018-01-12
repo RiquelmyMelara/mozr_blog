@@ -55,8 +55,7 @@
         <div class="col-sm-6 margin-y-50">
             <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_all-09.png"  alt="">
             <h3>Low cost</h3>
-            <p>Cloud hosting is traditionally more af-
-            fordable than in-house infrastructure.</p>
+            <p>Cloud hosting is traditionally more affordable than in-house infrastructure.</p>
         </div>
         <div class="col-sm-6 margin-y-50">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_all-10.png"  alt="">
@@ -72,9 +71,7 @@
         <div class="col-sm-6">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_all-12.png"  alt="">
             <h3>Flexibility</h3>
-            <p>Choose any operating system and envi-
-            ronment that’s best for your develop-
-            ment.</p>
+            <p>Choose any operating system and environment that’s best for your development.</p>
         </div>
         <div class="col-sm-6">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_all-11.png"  alt="">
@@ -93,14 +90,12 @@
             professionals review, audit, edit, and refine WordPress plugins and
             functionality including WooCommerce storefronts.</p>
             
-            <p>Optimized code does more than improve performance. Good quali-
-            ty code provides scalability, modularity, and flexibility. Poor code is
+            <p>Optimized code does more than improve performance. Good quality 
+                code provides scalability, modularity, and flexibility. Poor code is
             
-            unusable for growing businesses, which means you must restruc-
-            ture and redesign it in the future. Our professionals ensure that
+            unusable for growing businesses, which means you must restructure and redesign it in the future. Our professionals ensure that
             
-            code is reusable, so your investment is safeguarded for future appli-
-            cation development.</p>
+            code is reusable, so your investment is safeguarded for future application development.</p>
         </div>
         <div class="col-sm-6 center-text">
             <img  src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_all-14.png"  alt="">

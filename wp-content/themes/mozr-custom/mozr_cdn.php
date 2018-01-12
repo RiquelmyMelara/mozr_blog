@@ -28,11 +28,11 @@
         offers fast streaming, data delivery, application processing and
         API hosting. Mozr utilizes Amazon’s cloud infrastructure to offer
 
-        only the fastest and most secure data protection for your web-
-        site. CloudFront is integrated with Amazon Web Services (AWS),
+        only the fastest and most secure data protection for your website. 
+        CloudFront is integrated with Amazon Web Services (AWS),
 
-        making our WordPress designs and setup the best in speed, scal-
-        ability, flexibility and reliability.</p>
+        making our WordPress designs and setup the best in speed, scalability, 
+        flexibility and reliability.</p>
     </div>
 
 </div>
@@ -45,8 +45,7 @@
             <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-02.png"  alt="">
             <h3>A CDN with data centers around the globe</h3>
             <p>With 44 available zones, Amazon’s
-                cloud infrastructure offers a pres-
-                ence in 16 geographic regions.</p>
+                cloud infrastructure offers a presence in 16 geographic regions.</p>
         </div>
         <div class="col-sm-4 margin-y-50">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-03.png"  alt="">
@@ -60,8 +59,8 @@
         <div class="col-sm-4 margin-y-50">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-04.png"  alt="">
             <h3>Out-of-the-box AWS integration</h3>
-            <p>Easy configuration of any AWS ser-
-            vice with CloudFront, so you can
+            <p>Easy configuration of any AWS service 
+                with CloudFront, so you can
             rapidly deploy solutions.</p>
         </div>
     
@@ -72,23 +71,18 @@
             <h3>Top-notch performance</h3>
             <p>Amazon hosts some of the largest
 
-            sites on the Internet with speed un-
-            paralleled due to its low latency
+            sites on the Internet with speed unparalleled due to its low latency
             
             broadband connections. WIth Mozr
             
-            sites, you get world-class perfor-
-            mance that only the best in hosting
+            sites, you get world-class performance that only the best in hosting
             
             can offer.</p>
         </div>
         <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-06.png"  alt="">
             <h3>Cost efficient</h3>
-            <p>With cloud hosting, you pay for re-
-            sources that you use. This advan-
-            tage makes it much more cost ef-
-            fective for organizations that don’t
+            <p>With cloud hosting, you pay for resources that you use. This advantage makes it much more cost effective for organizations that don’t
             
             have high up-front technology
             budgets.</p>
@@ -96,8 +90,7 @@
         <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-07.png"  alt="">
             <h3>Ease of use</h3>
-            <p>Anyone from developers and oper-
-            ations people to WordPress owners
+            <p>Anyone from developers and operations people to WordPress owners
             
             with little technical experience can
             work with Amazon’s configurations

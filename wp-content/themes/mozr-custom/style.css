@@ -168,6 +168,25 @@ footer .site-title a:hover{
 .center-text{
   text-align: center;
 }
+.mozr-grey-bk{
+  background-color: #F1F1F2;
+}
+.datacenters-map{
+  float: right;
+  width: 50%;
+  margin: 40px 0;
+}
+.dc-aws{
+  width:25%;
+  margin-top: 50px;
+}
+.margin-top-80{
+  margin-top: 80px;
+}
+.data-center-icon{
+  width:95%;
+  padding:70px;
+}
 .amazon-cloudfront{
   border: solid 1px lightgrey;
   padding: 60px 20px;

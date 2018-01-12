@@ -25,16 +25,16 @@
             <article class="uptime-container">
             <p>Mozr leverages the power of Amazon Web Services (AWS), which allows us to provide a</p>
 
-            <p>99.95% uptime guarantee. We prioritize our customers’ speed, stability, scalability and sus-
-            tainability. Our guarantee ensures that your applications and websites will always stay availa-
-            ble for your customers regardless of your location, business hours, and peak traffic times.</p>
+            <p>99.95% uptime guarantee. We prioritize our customers’ speed, stability, scalability and sustainability. 
+                Our guarantee ensures that your applications and websites will always stay available 
+                for your customers regardless of your location, business hours, and peak traffic times.</p>
 
-            <p>Every reasonable effort is used to keep your data safe, ensure sustainability for your applica-
-            tions and consistently maintain availability for customers 24/7. Without a good host that fo-
-            cuses on uptime, you could lose millions in revenue from downtime.</p>
+            <p>Every reasonable effort is used to keep your data safe, ensure sustainability for your applications 
+                and consistently maintain availability for customers 24/7. Without a good host that focuses 
+                on uptime, you could lose millions in revenue from downtime.</p>
 
-            <p>Having good uptime affects brand loyalty. Imagine visiting a site frequently down due to tech-
-            nical issues. Would you continue to visit the site and provide the business with sensitive data?</p>
+            <p>Having good uptime affects brand loyalty. Imagine visiting a site frequently down due to technical 
+                issues. Would you continue to visit the site and provide the business with sensitive data?</p>
 
             <p>Or would you find an alternative? Statistics show that most customers leave a site after
             three-second delays in load time. Your business revenue depends on uptime, and our service

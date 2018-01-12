@@ -24,8 +24,8 @@
         offers fast streaming, data delivery, application processing and
         API hosting. Mozr utilizes Amazon’s cloud infrastructure to offer
 
-        only the fastest and most secure data protection for your web-
-        site. CloudFront is integrated with Amazon Web Services (AWS),
+        only the fastest and most secure data protection for your website. 
+        CloudFront is integrated with Amazon Web Services (AWS),
 
         making our WordPress designs and setup the best in speed, scal-
         ability, flexibility and reliability.</p>
@@ -71,8 +71,7 @@
         <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-10.png"  alt="">
             <h3>Inventory and configuration</h3>
-            <p>An Amazon Inspector -- an auto-
-            mated security assessment service
+            <p>An Amazon Inspector -- an automated security assessment service
 
             -- scans every service for vulnerabil-
             ities. You also get built-in deploy-
@@ -86,8 +85,8 @@
             <h3>Monitor and logging</h3>
             <p>Know exactly what is going on
 
-            within your system with AWS track-
-            ing, notification and audit tools and
+            within your system with AWS tracking, 
+            notification and audit tools and
             
             features.</p>
         </div>
@@ -108,8 +107,7 @@
             <p>Just fill out the AWS vulnerability
             and penetration testing form, and
             
-            security experts will test your appli-
-            cation and provide suggestions for
+            security experts will test your application and provide suggestions for
             
             its security improvements.</p>
         </div>

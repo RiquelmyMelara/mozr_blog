@@ -16,7 +16,7 @@
         <div class='container footer'>
             <div class="col-md-3">
                 <p class='footer-column-title'>TECHNOLOGY</p>
-                <p class='footer-column-element'>DATA CENTERS</p>
+                <p linkto="data-centers" class='footer-column-element footer-link'>DATA CENTERS</p>
                 <p linkto="Uptime" class='footer-column-element footer-link'>UPTIME</p>
                 <p linkto="performance" class='footer-column-element footer-link'>PERFORMANCE</p>
                 <p linkto="Security" class='footer-column-element footer-link'>SECURITY / SSL</p>
