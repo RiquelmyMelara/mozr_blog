@@ -35,6 +35,7 @@
  
     gtag('config', 'UA-88916044-2');
     </script>
+    <script src="//www.socialintents.com/api/socialintents.1.3.js#2c9fa56360eaab070160eb9da5af00d0" async="async"></script>
 </head>
 
 <body <?php body_class(); ?>>
