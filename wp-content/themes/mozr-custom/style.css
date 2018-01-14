@@ -262,7 +262,7 @@ body:before{
 .padding-35{
   padding: 35px;
 }
-form .contact-submit{
+#contact-form .contact-submit{
   background-color: #F75737;
   color: white;
   text-transform: none;
@@ -273,7 +273,7 @@ form .contact-submit{
   margin-right: 10px;
   margin-top: 40px;
 }
-form .contact-input{
+#contact-form .contact-input{
   background-color: white;
   border: 0px;
 }

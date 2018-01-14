@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="col-sm-6 contact-grey-bk-1 padding-35 margin-top-50-mobil">
-            <form method="post">
+            <div id="contact-form" class="col-sm-12">
             Full Name <input id="contact-fullname" class="contact-input" type="text" name="name"><br>
             Email Address <input id="contact-email" class="contact-input" type="text" name="email"><br>
             Contact us concerning* 
@@ -68,8 +68,8 @@
             </select>
             Subject* <input class="contact-input" type="text" name="subject"><br>
             Message* <textarea class="contact-input" rows="6" cols="20" name="message"></textarea><br>
-            <input type="submit" name="submit" class="contact-submit" value="Submit">
-            </form>
+            <input id="contact-form-submit" type="submit" name="submit" class="contact-submit" value="Submit">
+            </div>
         </div>
     </div>
 
