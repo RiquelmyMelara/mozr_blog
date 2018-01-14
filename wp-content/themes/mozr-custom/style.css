@@ -122,7 +122,19 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
   font-size: 50px;
 }
 .mozr-page-title{
-  position: absolute;top: 28%;
+  position: absolute;
+  top: 28%;
+}
+.legal{
+  top: 30% !important;
+}
+.legal-button{
+  padding: 20px;
+  cursor: pointer;
+}
+.legal-active{
+  border-left: 4px solid #F75737;
+  color: #F75737;
 }
 .white{
   color:white;
@@ -145,6 +157,12 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 }
 .footer-link-support{
   cursor: pointer;
+}
+.legal-container{
+  height: 375px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 footer .site-title a:hover{
   color: white;
