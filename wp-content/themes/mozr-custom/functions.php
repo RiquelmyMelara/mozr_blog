@@ -121,12 +121,12 @@ add_action( 'wp_ajax_nopriv_contact_send_email', 'contact_send_email' );
 
 function contact_send_email(){
     $return = array();
-    if (isset($_POST["contact-fullname"]))
+    if (isset($_POST["contact_fullname"]))
     {
         $from = 'riquelmy.melara@gmail.com'; // sender
         $subject = "New Email from Mozr";
         $message = "message test";
-        $to = $_POST["contact-email"];
+        $to = $_POST["contact_email"];
 
         $message = wordwrap($message, 70);
 

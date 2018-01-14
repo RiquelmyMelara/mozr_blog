@@ -51,12 +51,8 @@ jQuery( document ).ready(function() {
             type:"POST",
             url: my_ajax_object.ajax_url,
             data: { 
-                action: "contact_send_email",
-                email: jQuery("#mailchimpwl-email").val(),
-                listID: jQuery("#mailchimpwl-listid").val(),
-                firstname: firstname,
-                lastname: lastname,
-                website: jQuery("#mailchimpwl-website").val(),
+                contact_fullname: jQuery("#contact-fullname").val(),
+                contact_email: jQuery("#mailchimpwl-email").val(),
             },
             success: function (data) {
                 if(data.status == "Success"){
