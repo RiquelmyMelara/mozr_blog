@@ -116,3 +116,26 @@ function mozr_get_post_views($postID){
     return $count;
 }
 add_action( 'wp_head', 'mozr_track_post_views');
+add_action( 'wp_ajax_contact_send_email', 'contact_send_email' );
+add_action( 'wp_ajax_nopriv_contact_send_email', 'contact_send_email' ); 
+
+function contact_send_email(){
+    $return = array();
+    if (isset($_POST["contact-fullname"]))
+    {
+        $from = 'riquelmy.melara@gmail.com'; // sender
+        $subject = "New Email from Mozr";
+        $message = "message test";
+        $to = $_POST["contact-email"];
+
+        $message = wordwrap($message, 70);
+
+        mail($to,$subject,$message,"From: $from\n");
+        $return['status'] =  'Success';
+    }else{
+        $return['status'] =  'Error';
+    }
+
+    
+    wp_send_json($return);
+}
