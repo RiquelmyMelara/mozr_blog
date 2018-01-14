@@ -64,7 +64,7 @@ if (!isset($_POST["submit"]))
             </div>
         </div>
         <div class="col-sm-6 contact-grey-bk-1 padding-35 margin-top-50-mobil">
-            <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+            <form method="post">
             Full Name <input class="contact-input" type="text" name="name"><br>
             Email Address <input class="contact-input" type="text" name="email"><br>
             Contact us concerning* 
