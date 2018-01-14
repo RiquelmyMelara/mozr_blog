@@ -46,25 +46,6 @@ jQuery( document ).ready(function() {
      jQuery('.sign-up-button').click(function () {
         window.location.href = base_url + "/sign-up";
     });
-    jQuery("#contact-form-submit").click(function() {
-        jQuery.ajax({
-            type:"POST",
-            url: my_ajax_object.ajax_url,
-            data: { 
-                contact_fullname: jQuery("#contact-fullname").val(),
-                contact_email: jQuery("#mailchimpwl-email").val(),
-            },
-            success: function (data) {
-                if(data.status == "Success"){
-                   console.log("Success");
-                    
-                }else{
-                    console.log("Error");
-                }
-            }
-        });
-    });
-
 });
 
 jQuery(window).load(function(){

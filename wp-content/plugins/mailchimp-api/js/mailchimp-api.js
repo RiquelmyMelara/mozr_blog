@@ -66,5 +66,42 @@ jQuery(document).ready(function($){
             }
         });
     });
+
+    jQuery("#contact-form-submit").click(function(){
+        $('#contact-form-submit').fadeOut('slow', function() {
+            $('.loader').fadeIn('slow');
+        });
+        var fields = (jQuery("#contact-fullname").val()).split(' ');    
+        var firstname = fields[0];
+        var lastname = fields[1];
+    
+        jQuery.ajax({
+            type:"POST",
+            url: my_ajax_object.ajax_url,
+            data: { 
+                action: "contact_send_email",
+                email: jQuery("#contact-email").val(),
+                listID: jQuery("#mailchimpcontact-listid").val(),
+                firstname: firstname,
+                lastname: lastname,
+                contact_type: jQuery("#contact_type").val(),
+                contact_sbjt: jQuery("#contact_sbjt").val(),
+                contact_messg: jQuery("#contact_messg").val(),
+            },
+            success: function (data) {
+                if(data.status == "Success"){
+                    $('.loader').fadeOut('slow', function() {
+                        $('#waitingl-success').fadeIn('slow');
+                    });
+                    
+                }else{
+                    $('.loader').fadeOut('slow', function() {
+                        $('#waitingl-error').fadeIn('slow');
+                    });
+                    console.log(data);
+                }
+            }
+        });
+    });
     
 });

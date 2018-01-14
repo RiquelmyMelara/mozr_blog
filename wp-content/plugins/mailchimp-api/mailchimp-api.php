@@ -134,7 +134,17 @@ function mailchimpwl_callback($atts = [], $content = null)
     include_once( plugin_dir_path( __FILE__ ) . 'includes/waiting-list.php' );
 }
 
+function mailchimpcontact_callback($atts = [], $content = null)
+{
+    $a = shortcode_atts( array(
+        'listid' => 'empty'
+    ), $atts );
+    $listId = $a['listid'];
+    include_once( plugin_dir_path( __FILE__ ) . 'includes/contact.php' );
+}
+
 add_shortcode('mailchimpwl', 'mailchimpwl_callback');
+add_shortcode('mailchimpcontact', 'mailchimpcontact_callback');
 
 function mailchimp_api_js() {   
     wp_enqueue_style( 'mailchimp-api-css', plugin_dir_url( __FILE__ ) . 'css/mailchimp-api.css', array(), '0.1' );
@@ -142,3 +152,58 @@ function mailchimp_api_js() {
 }
 
 add_action('wp_enqueue_scripts', 'mailchimp_api_js');
+
+add_action( 'wp_ajax_contact_send_email', 'contact_send_email' );
+add_action( 'wp_ajax_nopriv_contact_send_email', 'contact_send_email' ); 
+
+function contact_send_email(){
+    $apikey = get_option('mapi_api_key');
+    $mapiDomain = get_option('mapi_api_domain');
+    $email = $_POST['email'];
+    $firstname = isset($_POST['firstname']) ? $_POST['firstname'] : '';
+    $lastname = isset($_POST['lastname']) ? $_POST['lastname'] : '';
+    $contact_type = isset($_POST['contact_type']) ? $_POST['contact_type'] : '';
+    $contact_sbjt = isset($_POST['contact_sbjt']) ? $_POST['contact_sbjt'] : '';
+    $contact_messg = isset($_POST['contact_messg']) ? $_POST['contact_messg'] : '';
+    
+    $listID = $_POST['listID'];
+    $auth = base64_encode( 'user:'.$apikey );
+    
+    $data = array(
+        'apikey'        => $apikey,
+        'email_address' => $email,
+        'status'        => 'subscribed',
+        'merge_fields'  => [
+            'FNAME'     => $firstname,
+            'LNAME'     => $lastname,
+            'CTYP'     => $contact_type,
+            'SBJT'     => $contact_sbjt,
+            'MESSG'     => $contact_messg,
+        ]
+    );
+    $json_data = json_encode($data);
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
+    'Authorization: Basic '.$auth));
+    curl_setopt($ch, CURLOPT_URL, 'https://' .$mapiDomain .'.api.mailchimp.com/3.0/lists/' .$listID .'/members/');
+    
+    curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);                                                                                                                  
+    
+    $result = curl_exec($ch);
+    $json = json_decode($result, true);
+    $return = array();
+    
+    if($json["status"] == "subscribed"){
+        $return['status'] =  'Success';
+    }else{
+        $return['status'] =  'Error: ' .$json["status"];
+        $return['title'] =  $json["title"];
+    }
+    wp_send_json($return);
+    die();
+}
