@@ -212,6 +212,10 @@ footer .site-title a:hover{
   margin-bottom: 50px;
 }
 
+.margin-bottom-15{
+  margin-bottom: 15px;
+}
+
 #page{
   margin: 0px !important;
 }
@@ -237,7 +241,42 @@ body:before{
 .codestyle ol {		
   padding-left: 2em;		
 }
-  
+.contact-title{
+  color: #444343;
+}
+.container .contact-h2{
+  margin:0px;
+}
+.contact-grey-bk{
+  background-color: #F1ECE8;
+}
+.contact-grey-bk-1{
+  background-color: #F7F6F4
+}
+.padding-y-35px{
+  padding: 35px 0px;
+}
+.padding-top-35px{
+  padding-top: 35px;
+}
+.padding-35{
+  padding: 35px;
+}
+form .contact-submit{
+  background-color: #F75737;
+  color: white;
+  text-transform: none;
+  font-weight: 100;
+  font-size: 12px;
+  padding: 15px 26px;
+  border-radius: 0px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+form .contact-input{
+  background-color: white;
+  border: 0px;
+}
 
 #tldr{
     font-family: 'Open Sans', sans-serif;

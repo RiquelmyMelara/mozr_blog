@@ -39,6 +39,10 @@ jQuery( document ).ready(function() {
         var aTag = jQuery(".shape-1-container");
         jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
      });
+    jQuery("#contact-support").click(function() {
+        event.preventDefault(); 
+        jQuery("#siButtonText-chat").click();
+    }); 
      jQuery('.sign-up-button').click(function () {
         window.location.href = base_url + "/sign-up";
     });
