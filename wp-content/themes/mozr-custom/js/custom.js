@@ -46,6 +46,13 @@ jQuery( document ).ready(function() {
      jQuery('.sign-up-button').click(function () {
         window.location.href = base_url + "/sign-up";
     });
+    jQuery('.footer-link-support').click(function () {
+        var win = window.open('https://mozr.freshdesk.com', '_blank');
+        if (win) {
+            //Browser has allowed it to be opened
+            win.focus();
+        } 
+    });
 });
 
 jQuery(window).load(function(){

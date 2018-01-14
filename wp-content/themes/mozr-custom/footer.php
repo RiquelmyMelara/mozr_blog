@@ -28,9 +28,9 @@
                 <p class='footer-column-element'>ABOUT US</p>
                 <p class='footer-column-element'>PROFESSIONAL SERVICES</p>
                 <p class='footer-column-element'>CAREERS</p>
-                <p class='footer-column-element'>SUPPORT</p>
+                <p class='footer-column-element footer-link-support'>SUPPORT</p>
                 <p class='footer-column-element'>LEGAL</p>
-                <p class='footer-column-element'>CONTACT</p>
+                <p linkto="contact" class='footer-column-element footer-link'>CONTACT</p>
             </div>
             <div class="col-md-5">
                 <p class='footer-column-title'>SOCIAL</p>
