@@ -707,6 +707,7 @@ span.meta-nav {
   width: 100%;
   left: 0;
 }
+
 @media (max-width: 768px) {
   .post {
     width: 100%;
@@ -834,15 +835,20 @@ div#btnautor p {
 }
 /* Home */
 .home-title{
-    color: #353535 !important;
     font-size: 50px !important;
+}
+.home-background{
+  background-image: url(img/Image_Mozr_1920x725.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
   
   .page-template-mozr_home{
         background-color: #E8E8E8;
   }
   .page-template-mozr_home .jumbotron{
-        background-color: #E8E8E8;
+        background-color: transparent;
   }
   
   .blue-btn{

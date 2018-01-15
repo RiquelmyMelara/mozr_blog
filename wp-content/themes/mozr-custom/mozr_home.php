@@ -15,7 +15,7 @@
                  </h1>
                  <button id="homepage-learn-more" class='blue-btn'>Learn More</button><button class='orange-btn sign-up-button'>Sign Up</button>
              </div>
-             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/homepage_image.png" class='shape-0 z-index-1' alt="">
+             
          </div>
      </div>
  

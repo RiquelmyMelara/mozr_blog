@@ -8,7 +8,7 @@
             <div class="col-sm-12 contact-grey-bk margin-bottom-15">
                 <div class="col-sm-12 padding-y-35px">
                     <div class="col-sm-2">
-                        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/contact_01.png"  alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/CONTACT PAGE_LEGAL-02.png"  alt="">
                     </div>
                     <div class="col-sm-10">
                         <h2 class="contact-h2">Need 24/7 support?</h2>
@@ -20,7 +20,7 @@
             <div class="col-sm-12 contact-grey-bk-1 padding-y-35px">
                 <div class="col-sm-12">
                     <div class="col-sm-2">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/img/contact_02.png"  alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/img/CONTACT PAGE_LEGAL-03.png"  alt="">
                     </div>
                     <div class="col-sm-10">
                         <h2 class="contact-h2">Call Sales Now</h2>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-sm-12 padding-top-35px">
                     <div class="col-sm-2">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/img/contact_03.png"  alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/img/CONTACT PAGE_LEGAL-04.png"  alt="">
                     </div>
                     <div class="col-sm-10">
                         <h2 class="contact-h2">Sales Hours</h2>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-sm-12 padding-top-35px">
                     <div class="col-sm-2">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/img/contact_04.png"  alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/img/CONTACT PAGE_LEGAL-05.png"  alt="">
                     </div>
                     <div class="col-sm-10">
                         <h2 class="contact-h2">Mailing Address</h2>

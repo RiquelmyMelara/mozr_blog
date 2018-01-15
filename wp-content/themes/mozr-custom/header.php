@@ -110,7 +110,7 @@
 <?php 
     if ( is_page_template( 'mozr_home.php' ) ) {
         ?>
-        <div class="row jumbotron"> <!-- row -->
+        <div class="row jumbotron home-background"> <!-- row -->
         <?php
     } else {
         ?>
