@@ -843,6 +843,13 @@ div#btnautor p {
   background-position: center;
   background-repeat: no-repeat;
 }
+.legal-font-size{
+  font-size: 9pt;
+  padding-top: 25px;
+}
+.legal-font-size h2{
+  font-size: 9pt;
+}
   
   .page-template-mozr_home{
         background-color: #E8E8E8;
