@@ -22,7 +22,7 @@
     <div class="container margin-bottom-50">
         <div class="col-sm-4">
         <h4 linkto="terms-of-service" class="mozr-grey-bk legal-button footer-link">Terms of Service</h4>
-        <h4 linkto="legal" class="mozr-grey-bk legal-button footer-link">Service Level Agreement</h4>
+        <h4 linkto="service-level-agreement" class="mozr-grey-bk legal-button footer-link">Service Level Agreement</h4>
         <h4 linkto="privacy-and-copyright" class="mozr-grey-bk footer-link legal-button ">Privacy and Copyright</h4>
         <h4 class="mozr-grey-bk legal-button legal-active">Acceptable Use Policy</h4>
         </div>

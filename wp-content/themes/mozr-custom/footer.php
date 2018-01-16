@@ -29,7 +29,7 @@
                 <p class='footer-column-element'>PROFESSIONAL SERVICES</p>
                 <p class='footer-column-element'>CAREERS</p>
                 <p class='footer-column-element footer-link-support'>SUPPORT</p>
-                <p linkto="legal" class='footer-column-element footer-link'>LEGAL</p>
+                <p linkto="terms-of-service" class='footer-column-element footer-link'>LEGAL</p>
                 <p linkto="contact" class='footer-column-element footer-link'>CONTACT</p>
             </div>
             <div class="col-md-5">

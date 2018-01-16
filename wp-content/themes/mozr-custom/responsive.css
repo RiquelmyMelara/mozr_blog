@@ -76,6 +76,16 @@
   }
 }
 @media (max-width: 990px) {
+  #page .home-background{
+    background-color: #eee;
+    background-image: none !important;
+  }
+  .page-template-mozr_home .row.jumbotron:nth-of-type(1) {
+    width: 100%;
+    background-image: url(img/homepage_image.png);
+    background-size: cover;
+    background-position: -263px -40px;
+}
   .jb-mobile{
     margin-left: 170px;
   }
