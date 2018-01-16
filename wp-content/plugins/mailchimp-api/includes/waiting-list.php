@@ -3,8 +3,8 @@
 ?>
 <div class='contactform container-fluid'>
     <div class='col-md-5 contactform-left' >
-        <div class='col-md-7 contact-title'>Want to switch to MOZR?</div>
-            <div class='col-md-7 contact-subtitle'>Join our waiting list and we will contact you with more information</div>
+        <div class='col-md-8 contact-title'>Want to switch to MOZR?</div>
+            <div class='col-md-8 contact-subtitle'>Join our waiting list and we will contact you with more information</div>
         </div>
         <div class='col-md-7 contactform-right'>
             <div class='col-md-12' style='padding: 0px'>

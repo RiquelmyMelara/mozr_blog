@@ -53,6 +53,14 @@ jQuery( document ).ready(function() {
             win.focus();
         } 
     });
+    jQuery('#menu-item-32').click(function () {
+        if(jQuery(".page-template-mozr_home-php")[0]) {
+            var aTag = jQuery(".shape-1-container");
+            jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
+        } else {
+            window.location.href = base_url + "#home-our-platform"
+        }
+    });
 });
 
 jQuery(window).load(function(){

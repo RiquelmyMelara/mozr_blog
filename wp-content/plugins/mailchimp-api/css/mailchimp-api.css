@@ -21,17 +21,18 @@
 .contactform .contactform-left{
     padding-top: 80px;
   }
-  .page-template-mozr_contact .container-fluid{
+  #page .container-fluid{
     background-color: #F7F6F4;
     padding-right: 0px;
     padding-left: 0px;
+    border-top: 1px solid #F7F6F4;
   }
   
   .contactform .contactform-right{
     background-color: white;
     padding: 5% 4%;
   }
-  .page-template-mozr_contact #content{
+  #page #content{
     width: 100% !important;
   }
   .contactform{
