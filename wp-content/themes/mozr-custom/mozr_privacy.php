@@ -27,21 +27,28 @@
         <h4 linkto="acceptable-use-policy" class="mozr-grey-bk legal-button footer-link">Acceptable Use Policy</h4>
         </div>
         
-        <div class="col-sm-8">
-            <h2>Service Level Agreement Title</h2>
-            <p>Since Mozr works exclusively with AWS for its speed and scalability, plugging Route 53 DNS
-
-            services into your applications is simple configurations and integration. The service is designed 
-            to work well and easily integrate into other Amazon offerings.</p>
-            <p>Our leveraged DNS services are designed to be fast and simple. Whether you’re a developer
-            that needs easily managed DNS or a business owner with little knowledge of the way the DNS
-            protocol works, Mozr is here to help. Route 53 has low latency and even a self-service API for
-            development workflows.</p>
-            <p>Route 53 gives you hosted zone capabilities providing flexibility to add DNS records at-will, or
-            site owners can transfer DNS hosting services to Amazon for a currently hosted domain. Auto-
-            matically integrate load balancers and route customers to an Amazon EC2 region.</p>
-            <p>Whatever your DNS needs, Mozr can host and set up a fully provisioned DNS service configured 
-                for your unique business purposes.</p>
+        <div class="col-sm-8  legal-font-size">
+            <h2>INTRODUCTION</h2>
+            <p>Effective Date: 1/1/2018</p>
+            <p>MOZR, LLC. (“MOZR”,“we”, “us”, or “our”) respects your privacy and is committed to maintaining the privacy and confidentiality of any personal data we collect either through mozr.com (“Site”) or through the provision our managed hosting services (“Services”). 
+                The purpose of this Privacy Policy is to inform you of our personal data collection, use, and processing practices. 
+                This Privacy Policy also describes the choices available to you regarding the use of, your access to, and how to update and correct your personal information. 
+                If you have any questions about this Privacy Policy, please feel free to contact us at the information provided below.
+            </p>
+            <h2>EU – U.S. PRIVACY SHIELD AND SWISS – U.S. PRIVACY SHIELD</h2>
+            <p>We (and our subsidiary companies MOZR (UK) Limited and MOZR Ireland Limited) participate in and have certified our compliance with the 
+                EU – U.S. Privacy Shield Framework and the Swiss-U.S. Privacy Shield Framework. 
+                We are committed to subjecting all personal data received from European Union (EU) member countries and Switzerland, respectively, 
+                in reliance on each Privacy Shield Frameworks, to the Framework’s applicable Principles. To learn more about the Privacy Shield Frameworks, 
+                visit the U.S. Department of Commerce’s Privacy Shield List at <a href="https://www.privacyshield.gov/list" target="_blank">https://www.privacyshield.gov/list</a>.</p>
+            <p>Under the Privacy Shield Framework, we are responsible for the processing of personal data that we collect from you and subsequently transfer to a third party acting as an agent on our behalf. 
+                We comply with the Privacy Shield Principles for all onward transfers of personal data from the EU and Switzerland including the onward transfer liability provisions.</p>
+            <p>With respect to personal data received or transferred pursuant to the Privacy Shield Frameworks, we are subject to the regulatory enforcement powers of the U.S. Federal Trade Commission. 
+                In certain situations, we may be required to disclose personal data in response to lawful requests by public authorities, 
+                including requests made to meet national security or law enforcement requirements.</p>
+            <p>If you have an unresolved privacy or data use concern that we have not addressed satisfactorily, 
+                please contact our U.S.-based third party dispute resolution provider (free of charge) at <a href="https://feedback-form.truste.com/watchdog/request" target="_blank">https://feedback-form.truste.com/watchdog/request</a>.</p>
+            <p>Under certain conditions more fully described on the Privacy Shield website (<a href="https://www.privacyshield.gov/article?id=How-to-Submit-a-Complaint" target="_blank">https://www.privacyshield.gov/article?id=How-to-Submit-a-Complaint</a>) you may invoke binding arbitration when other dispute resolution procedures have been exhausted.</p>
         </div>
     </div>
 
