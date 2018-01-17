@@ -34,9 +34,9 @@
                 on uptime, you could lose millions in revenue from downtime.</p>
 
             <p>Having good uptime affects brand loyalty. Imagine visiting a site frequently down due to technical 
-                issues. Would you continue to visit the site and provide the business with sensitive data?</p>
+                issues. Would you continue to visit the site and provide the business with sensitive data? Or would you find an alternative?</p>
 
-            <p>Or would you find an alternative? Statistics show that most customers leave a site after
+            <p>Statistics show that most customers leave a site after
             three-second delays in load time. Your business revenue depends on uptime, and our service
             provides only the best in infrastructure. Our leveraged AWS infrastructure improves brand
             loyalty and avoids lost revenue due to technical issue.</p>
