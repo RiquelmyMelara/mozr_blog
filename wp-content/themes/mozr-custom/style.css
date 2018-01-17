@@ -850,6 +850,9 @@ div#btnautor p {
 .legal-font-size h2{
   font-size: 9pt;
 }
+.font-21-5{
+  font-size: 20.5px !important;
+}
   
   .page-template-mozr_home{
         background-color: #E8E8E8;

@@ -27,8 +27,7 @@
         only the fastest and most secure data protection for your website. 
         CloudFront is integrated with Amazon Web Services (AWS),
 
-        making our WordPress designs and setup the best in speed, scal-
-        ability, flexibility and reliability.</p>
+        making our WordPress designs and setup the best in speed, scalability, flexibility and reliability.</p>
 
 
 </div>
@@ -38,12 +37,11 @@
         <div class="col-sm-4 margin-y-50">
             <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-08.png"  alt="">
             <h3>Infrastructure security</h3>
-            <p>WIth increased privacy capabilities,
+            <p>With increased privacy capabilities,
             AWS has built-in firewalls, access
             controls, data encryption with TLS,
             
-            and private on-premise data con-
-            nections.</p>
+            and private on-premise data connections.</p>
         </div>
         <div class="col-sm-4 margin-y-50">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_CDN-11.png"  alt="">
@@ -59,8 +57,7 @@
             each service including database,
             storage and site data transmission.
             
-            It includes flexible key manage-
-            ment, cryptographic key storage,
+            It includes flexible key management, cryptographic key storage,
             
             and SSE (server-side encryption) for
             message queues.</p>
@@ -73,9 +70,8 @@
             <h3>Inventory and configuration</h3>
             <p>An Amazon Inspector -- an automated security assessment service
 
-            -- scans every service for vulnerabil-
-            ities. You also get built-in deploy-
-            ment and management tools to
+            -- scans every service for vulnerabilities. 
+            You also get built-in deployment and management tools to
 
             keep track of assets both for new
             and legacy systems.</p>
@@ -93,7 +89,7 @@
         <div class="col-sm-4">
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_security_acces.png"  alt="">
             <h3>Identity and access control</h3>
-            <p>You need to enforce permissions
+            <p class="font-21-5">You need to enforce permissions
             and manage accounts. We offer
             identity and access management
             (IAM), multi-factor authentication,

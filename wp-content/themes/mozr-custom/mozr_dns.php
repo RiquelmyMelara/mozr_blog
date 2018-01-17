@@ -46,8 +46,8 @@
             protocol works, Mozr is here to help. Route 53 has low latency and even a self-service API for
             development workflows.</p>
             <p>Route 53 gives you hosted zone capabilities providing flexibility to add DNS records at-will, or
-            site owners can transfer DNS hosting services to Amazon for a currently hosted domain. Auto-
-            matically integrate load balancers and route customers to an Amazon EC2 region.</p>
+            site owners can transfer DNS hosting services to Amazon for a currently hosted domain. 
+            Automatically integrate load balancers and route customers to an Amazon EC2 region.</p>
             <p>Whatever your DNS needs, Mozr can host and set up a fully provisioned DNS service configured 
                 for your unique business purposes.</p>
         </div>

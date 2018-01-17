@@ -95,8 +95,8 @@
             parts of the world, it’s important that these buildings are centered
             in a location that allows for security but also keeps a small footprint
             on its environmental surroundings.</p>
-            <p>Customers benefit by having multiple availability zones without in-
-            terruption with safeguards that detect natural disasters before they
+            <p>Customers benefit by having multiple availability zones without interruption 
+            with safeguards that detect natural disasters before they
             
             hit including water-detecting devices, fire alarms and suppression
             equipment.</p>

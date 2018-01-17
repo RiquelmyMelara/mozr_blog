@@ -41,11 +41,10 @@
             <h3 class="margin-top-0">Our Hosting Platform</h3>
             <p>Mozr builds its applications on Amazon Web Services (AWS). Amazon’s 
                 leading infrastructure and exceptional security are unparalleled. 
-                We ensure that only the best in performance, stability, scala-
-                bility, and availability is offered to our clients. With Mozr’s leveraged
+                We ensure that only the best in performance, stability, scalability, 
+                and availability is offered to our clients. With Mozr’s leveraged
 
-                AWS infrastructure, your businesses runs smoothly with no techni-
-                cal difficulties.</p>
+                AWS infrastructure, your businesses runs smoothly with no technical difficulties.</p>
         </div>
     </div>
 </div>
@@ -77,7 +76,7 @@
         <img class="mozr-template-icon" src="<?php echo get_stylesheet_directory_uri() ?>/img/webcontent_all-11.png"  alt="">
             <h3>Security</h3>
             <p>Stay compliant and secure with virtual and
-            physical data security..</p>
+            physical data security.</p>
         </div>
     </div>
 </div>
