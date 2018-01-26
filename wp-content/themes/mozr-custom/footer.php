@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-3">
                 <p class='footer-column-title'>COMPANY</p>
-                <p class='footer-column-element'>ABOUT US</p>
+                <p linkto="about-us" class='footer-column-element footer-link'>ABOUT US</p>
                 <p class='footer-column-element footer-link-support'>SUPPORT</p>
                 <p linkto="terms-of-service" class='footer-column-element footer-link'>LEGAL</p>
                 <p linkto="contact" class='footer-column-element footer-link'>CONTACT</p>

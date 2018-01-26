@@ -624,6 +624,9 @@ div#comments {
   padding-top: 5px;
 }
 
+.nav-links{
+  padding-top: 28px;
+}
 
 .comment-form-comment label {
   display: none;
@@ -820,6 +823,9 @@ div#btnautor p {
 }
 #btnautor .author-description {
   font-size: 13px;
+}
+.header-container{
+  border-bottom: 1px solid lightgray;
 }
 
 #btnautor  .author-title {
