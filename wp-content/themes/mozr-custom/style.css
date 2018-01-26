@@ -265,6 +265,9 @@ body:before{
 .contact-title{
   color: #444343;
 }
+.contact-span{
+  font-size: 14px;
+}
 .container .contact-h2{
   margin:0px;
 }
