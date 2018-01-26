@@ -36,25 +36,25 @@
                     <tr>
                         <td>
                             <div class='circle'>
-                                <a href="https://twitter.com/mozronline"><i class="fa fa-twitter social" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/mozronline" target="_blank"><i class="fa fa-twitter social" aria-hidden="true"></i></a>
                             </div>
                         </td>
                     
                         <td>
                             <div class='circle'>
-                                <a href="https://www.facebook.com/mozronline"><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/mozronline" target="_blank"><i class="fa fa-facebook social" aria-hidden="true"></i></a>
                             </div>
                         </td>
                     
                         <td>
                             <div class='circle'>
-                                <a href="https://www.linkedin.com/company/17890020/"><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/17890020/" target="_blank"><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
                             </div>
                         </td>
                     
                         <td>
                             <div class='circle'>
-                                <i class="fa fa-instagram social" aria-hidden="true"></i>
+                                <a href="https://www.instagram.com/mozronline/" target="_blank"><i class="fa fa-instagram social" aria-hidden="true"></i></a>
                             </div>
                         </td>
                     </tr>
