@@ -49,7 +49,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 li.L0, li.L1, li.L2, li.L3, li.L4,
 li.L5, li.L6, li.L7, li.L8, li.L9 {
   list-style-type: decimal;
-} 
+}
 .prettyprint ul {
     list-style-type: disc !important;
     padding-left: 2em;
@@ -65,7 +65,7 @@ li.L5, li.L6, li.L7, li.L8, li.L9 {
 .codestyle li.L0, .codestyle li.L1, .codestyle li.L2, .codestyle li.L3,
 .codestyle li.L5, .codestyle li.L6, .codestyle li.L7, .codestyle li.L8 {
   list-style-type: decimal !important;
-  
+
 }
 .consoleStyleAll li:before {
   content: "$";
@@ -93,7 +93,7 @@ blockquote{
 }
 .codestyle li:before {
   display: none !important;
-  
+
 }
 .removeBashStyle:before{
   display: none !important;
@@ -255,12 +255,12 @@ body:before{
   color: black;
 }
 
-.codestyle li {		
- list-style-type: decimal !important;		
-}		
+.codestyle li {
+ list-style-type: decimal !important;
+}
 
-.codestyle ol {		
-  padding-left: 2em;		
+.codestyle ol {
+  padding-left: 2em;
 }
 .contact-title{
   color: #444343;
@@ -270,6 +270,7 @@ body:before{
 }
 .container .contact-h2{
   margin:0px;
+  font-size: 21px;
 }
 .contact-grey-bk{
   background-color: #F1ECE8;
@@ -366,7 +367,7 @@ body{
 .title{
   text-align: center;
     border-bottom: 1px solid #d0d2d3;
-    
+
 }
 
 .title h1{
@@ -635,8 +636,8 @@ div#comments {
   display: none;
 }
 .post-navigation {
-  border-top: 0px solid #1a1a1a; 
-   border-bottom: 0px solid #1a1a1a; 
+  border-top: 0px solid #1a1a1a;
+   border-bottom: 0px solid #1a1a1a;
 }
 .nav-previous {
   float: left;
@@ -862,14 +863,14 @@ div#btnautor p {
 .font-21-5{
   font-size: 20.5px !important;
 }
-  
+
   .page-template-mozr_home{
         background-color: #E8E8E8;
   }
   .page-template-mozr_home .jumbotron{
         background-color: transparent;
   }
-  
+
   .blue-btn{
     background-color: #3D3DA3;
     color: white;
@@ -881,7 +882,7 @@ div#btnautor p {
     margin-right: 10px;
     margin-top: 40px;
   }
-  
+
   .orange-btn{
     background-color: #F75737;
     color: white;
@@ -901,7 +902,7 @@ div#btnautor p {
       background-position: -263px -40px;
     }
   }
-  
+
   .shape-1{
     background-image: url('img/shape-1.png');
     background-size: cover;
@@ -918,33 +919,33 @@ div#btnautor p {
     padding-right: 65px;
     width: 80%;
   }
-  
+
   .shape-0{
     position: absolute;
     top: -11px;
     left: -272px;
     width: 1250px;
   }
-  
+
   .page-template-mozr_home .jumbotron{
     position: relative;
   }
-  
+
   .page-template-mozr_home .row.jumbotron{
         height: 725px;
   }
-  
+
   .h2-title{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-  
+
   }
-  
+
   .adjust-top{
     position: relative;
     top: -15px;
   }
-  
+
   .p-opensans{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -953,38 +954,38 @@ div#btnautor p {
     margin: 0 auto;
     margin-top: 25px;
   }
-  
+
   .h3-title{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     color: #F75737;
     font-weight: 100;
   }
-  
+
   .p-dedicated-hardware{
     text-align: left !important;
     width: auto;
   }
-  
+
   .shape-2{
     width: 300px;
     margin-left: 126px;
     margin-top: 45px;
   }
-  
+
   .shape-5{
     width: 280px;
     margin-left: 45px;
     margin-top: 35px;
   }
-  
+
   .shape-9{
     width: 350px;
     margin-left: 35px;
     margin-top: 35px;
   }
-  
-  
+
+
   .shape-3{
     background-image: url(img/shape-3-1.png);
     background-position-x: 0px;
@@ -994,7 +995,7 @@ div#btnautor p {
     height: 575px;
     margin: 80px 0px;
   }
-  
+
   .shape-4{
     background-image: url('img/shape-4.png');
     background-position: right;
@@ -1004,7 +1005,7 @@ div#btnautor p {
     margin: 80px 0px;
     padding: 105px 0px;
   }
-  
+
   .shape-8{
     background-image: url('img/shape-4.png');
     background-position: right;
@@ -1014,7 +1015,7 @@ div#btnautor p {
     margin: 80px 0px;
     padding: 105px 0px;
   }
-  
+
   .shape-6{
     background-image: url(img/shape-3-1.png);
     background-position-x: 0px;
@@ -1024,47 +1025,47 @@ div#btnautor p {
     height: 460px;
     margin: 80px 0px;
   }
-  
+
   .shape-7{
     width: 300px;
     margin-left: 80px;
     margin-top: 20px;
   }
-  
+
   .bg-tier-1{
     background-color: #3D3DA3;
     padding: 0px;
     height: auto;
   }
-  
+
   .bg-tier-2{
     background-color: #4741B2;
     padding: 0px;
     height: auto;
     width: 90%;
   }
-  
+
   .bg-tier-3{
     background-color: #5752B8;
     padding: 0px;
     height: auto;
     width: 75%;
   }
-  
+
   .bg-tier-4{
     background-color: #6864BF;
     padding: 0px;
     height: auto;
     width: 60%;
   }
-  
+
   .bg-tier-5{
     background-color: #7975C6;
     padding: 0px;
     height: auto;
     width: 45%;
   }
-  
+
   .tier{
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -1074,24 +1075,24 @@ div#btnautor p {
     font-weight: 300;
     opacity: 0.3;
   }
-  
+
   .interested-mozr{
     background-image: url('img/shape-10.png');
     background-size: cover;
   }
-  
+
   .interested-mozr .h3-title{
     text-align: center;
     margin-top: 45px;
   }
-  
+
   .interested-mozr .orange-btn{
     margin: 0 auto;
     display: block;
     margin-top: 45px;
     margin-bottom: 50px;
   }
-  
+
   .tier-title{
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -1100,7 +1101,7 @@ div#btnautor p {
     padding: 10px;
     font-weight: 300;
   }
-  
+
   .tier-more{
     float: right;
     color: #fff;
@@ -1109,24 +1110,24 @@ div#btnautor p {
     padding: 18px 10px 15px 30px;
     font-weight: 300;
   }
-  
+
   .right-row{
     width: 8px;
     margin-left: 5px;
   }
-  
+
   .latest-post{
     background-color: #F7F6F5;
     height: auto;
     padding: 60px 0px;
   }
-  
+
   .latest-post .h3-title{
     text-align: center;
     color: black !important;
     margin-bottom: 50px;
   }
-  
+
   .page-template-mozr_home .row.jumbotron{
         margin: 0px;
     width: 100%;

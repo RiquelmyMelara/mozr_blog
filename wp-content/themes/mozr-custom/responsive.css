@@ -2,16 +2,16 @@
   .shape-3{
     background-position-x: -50px;
     background-size: 57% 100%;
-  } 
+  }
   .shape-4{
     background-size: 55% 100%;
   }
   .shape-6{
     background-size: 55% 100%;
-  } 
+  }
   .shape-8{
     background-size: 55% 100%;
-  } 
+  }
 }
 
 @media screen and (max-width:1530px)
@@ -35,21 +35,21 @@
   #page .shape-3{
     background-position-x: -50px;
     background-size: 70% 100%;
-  } 
+  }
   #page .shape-6{
     background-position-x: -50px;
     background-size: 70% 100%;
-  } 
+  }
 }
 @media (max-width: 1349px) {
   #page .shape-3{
     background-position-x: -50px;
     background-size: 70% 100%;
-  } 
+  }
   #page .shape-6{
     background-position-x: -50px;
     background-size: 70% 100%;
-  } 
+  }
 }
 @media screen and (max-width:1280px)
 {
@@ -96,7 +96,7 @@
   #page .shape-3{
     background-position-x: -50px;
     background-size: 100%;
-  } 
+  }
   #page .shape-2{
     width: 200px;
     margin-top: 22px;
@@ -109,7 +109,7 @@
   #page .shape-6{
     background-position-x: 9px !important;
     background-size: 88% 100% !important;
-  } 
+  }
   #page .shape-7{
     width: 200px;
     margin-left: 110px;
@@ -198,7 +198,7 @@
   #page .shape-6{
     background-position-x: 0px !important;
     background-size: 100% !important;
-  } 
+  }
   .post-description{
     margin-bottom: 38px !important;
   }
@@ -360,7 +360,7 @@
     background-position-x: 0px;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 95px 0px;    
+    padding: 95px 0px;
     height: 740px;
     margin: 0px 0px;
     background-position-y: 265px;
@@ -458,7 +458,7 @@
 
   #page .post-container{
     box-shadow: none;
-    
+
   }
 
   #page .latest-post .col-md-6{
@@ -506,5 +506,37 @@
 
   #page .mozr-page-title h1{
     font-size: 20px !important;
+  }
+}
+@media screen and (max-width:375px)
+{
+  #page .sign-up-button {
+    width: 125px;
+  }
+  #page .blue-btn{
+    padding: 15px 18px;
+  }
+
+  #page .shape-2{
+    width: 280px;
+    margin-top: 65px;
+    top: -872px;
+    margin-left: 30px;
+  }
+  #page .shape-5{
+    width: 280px;
+    margin-left: -20px;
+    margin-top: 5px;
+    position: relative;
+    top: 120px;
+  }
+  #page .shape-7{
+    width: 300px;
+  }
+  #page .shape-9{
+    width: 323px;
+  }
+  #page .shape-8 .h3-title{
+    top: -232px;
   }
 }
